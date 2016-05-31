@@ -133,7 +133,7 @@ input[type="submit"]:focus {
 	font-weight: normal;
 	text-align: center;
 }
-.social {
+#menu-social {
 	text-align: center;
 }
 .call-to-action h2 {
@@ -389,14 +389,14 @@ hr {
 }
 
 /* Social */
-.social {
+#menu-social {
 	z-index: 9;
 }
-.social ul {
+#menu-social ul {
 	list-style: none;
 	padding: 0;
 }
-.social a {
+#menu-social a {
     float: left;
     height: 49px;
 	margin: 2px 0;
@@ -414,23 +414,23 @@ hr {
 }
 
 /* xs */
-.social ul {
+#menu-social ul {
 	float: none;
 	display: inline-block;
 	vertical-align: top;
 }
-.social li {
+#menu-social li {
 	float: left;
     padding: 10px 3px;
 }
 
 /* md */
 @media (min-width: 1075px) {
-	.social {
+	#menu-social {
 		position: absolute;
 		top: 8%;
 	}
-	.social li {
+	#menu-social li {
 		float: none;
 	}
 }
