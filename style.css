@@ -160,7 +160,7 @@ input[type="submit"]:focus {
 .mod-blockquote p {
 	font-weight: 300;
 }
-.page-template-page_home h3,
+.page-template-home h3,
 .site-description {
 	text-align: center;
 }
@@ -287,7 +287,7 @@ input[type="submit"]:focus {
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-page_home .entry-title {
+.page-template-home .entry-title {
 	display: none;
 }
 .entry-title {
