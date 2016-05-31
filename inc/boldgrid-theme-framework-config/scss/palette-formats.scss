@@ -1,0 +1,138 @@
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## 1
+-----------------------------------------------*/
+.palette-primary .site-header,
+.palette-primary .background-alpha,
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu {
+	background: $palette-primary_1;
+}
+.palette-primary .navbar-nav > .active > a,
+.palette-primary .navbar-nav > .active > a:hover,
+.palette-primary .navbar-nav > .active > a:focus,
+.palette-primary .navbar-nav > li > a:hover,
+.palette-primary .navbar-nav > li > a:focus,
+.palette-primary .leaderbox-text ul li i.fa,
+.palette-primary .mod-alpha i.fa,
+.palette-primary .mod-beta i,
+.palette-primary a,
+.palette-primary .current_page_item a,
+.palette-primary.disabled-footer .site-footer a {
+	color: $palette-primary_1;
+}
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, 
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.palette-primary .open > .dropdown-toggle.btn-primary,
+.palette-primary .navbar-default .navbar-nav > .open > a, 
+.palette-primary .navbar-default .navbar-nav > .open > a:hover, 
+.palette-primary .navbar-default .navbar-nav > .open > a:focus {
+	background: $palette-primary_2; 
+}
+.palette-primary .button-primary,
+.palette-primary .form-submit .submit,
+.palette-primary input[type="submit"],
+.palette-primary .dropdown-menu > li > a,
+.palette-primary .dropdown-menu > li > a:hover, 
+.palette-primary .dropdown-menu > li > a:focus,
+.palette-primary .dropdown-toggle {
+	background:  $palette-primary_1;
+	color: $text-contrast-palette-primary_1;
+}
+.palette-primary .site-title a {
+	color: $text-contrast-palette-primary_1;
+}
+
+/*-----------------------------------------------
+## 2
+-----------------------------------------------*/
+.palette-primary .button-secondary,
+.palette-primary .widget .table-striped > tbody > tr:nth-child(2n+1) > td,
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > .active > a, 
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.palette-primary .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav > li > a {
+	background:  $palette-primary_2;
+	color: $text-contrast-palette-primary_2;
+}
+.palette-primary .navbar-nav,
+.palette-primary .icon-circle,
+.palette-primary #secondary-menu {
+	background: $palette-primary_2;	
+}
+.palette-primary .mod-alpha h2,
+.palette-primary .mod-alpha p,
+.palette-primary .link-secondary,
+.palette-primary .section-title,
+.palette-primary .details h3 i,
+.palette-primary .agent-profile h2,
+.palette-primary .button-primary i.fa,
+.palette-primary .widget-title,
+.palette-primary .entry-title,
+.palette-primary #reply-title,
+.palette-primary .tertiary-menu .current_page_item a,
+.palette-primary .mod-gamma-1 h2 {
+	color: $palette-primary_2;	
+}
+.palette-primary .mod-blockquote {
+	border-left: 7px solid $palette-primary_2;
+}
+
+/*-----------------------------------------------
+## 3
+-----------------------------------------------*/
+.palette-primary .button-primary:hover,
+.palette-primary .button-primary:focus,
+.palette-primary .button-secondary:hover,
+.palette-primary .button-secondary:focus,
+.palette-primary .form-submit .submit:hover,
+.palette-primary .form-submit .submit:focus,
+.palette-primary input[type="submit"]:hover,
+.palette-primary input[type="submit"]:focus,
+.palette-primary .navbar-default .navbar-nav > .open > a, 
+.palette-primary .navbar-default .navbar-nav > .open > a:hover, 
+.palette-primary .navbar-default .navbar-nav > .open > a:focus,
+.palette-primary .navbar-default .navbar-nav > .current-menu-parent > a {
+	background: $palette-primary_3;
+	color: $text-contrast-palette-primary_3;
+}
+.palette-primary .mod-divider::before,
+.entry-title::before {
+	border-top: 1px solid $palette-primary_3;
+}
+.palette-primary .mod-divider a,
+.palette-primary .entry-title span {
+	background: $palette-primary-neutral-color;
+	color: $palette-primary_3;
+}
+
+/*-----------------------------------------------
+## Neutral
+-----------------------------------------------*/
+.palette-primary .background-primary,
+.palette-primary .entry-footer,
+.palette-primary.mce-content-body {
+	background: $palette-primary-neutral-color;
+	color: $text-contrast-palette-primary-neutral-color;
+}
+.palette-primary.disabled-footer .site-footer,
+#boldgrid-sticky-filler,
+#boldgrid-sticky-push {
+	background: $palette-primary-neutral-color;
+}
+.palette-primary p,
+.palette-primary .mod-blockquote p,
+.palette-primary .mod-gamma-1 h3 {
+	color: $text-contrast-palette-primary-neutral-color;
+}
+.palette-primary .call-to-action p,
+.palette-primary .site-footer p,
+.palette-primary .site-footer a {
+	color: #fff;
+}
