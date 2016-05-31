@@ -31,21 +31,21 @@
 	.icon-circle i.fa {
 		color: $palette-primary_1;
 	}
-	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
-	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, 
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
 	.open > .dropdown-toggle.btn-primary,
-	.navbar-default .navbar-nav > .open > a, 
-	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
 	.navbar-default .navbar-nav > .open > a:focus {
-		background: $palette-primary_2; 
+		background: $palette-primary_2;
 	}
 	.button-primary,
 	.form-submit .submit,
 	input[type="submit"],
 	.dropdown-menu > li > a,
-	.dropdown-menu > li > a:hover, 
+	.dropdown-menu > li > a:hover,
 	.dropdown-menu > li > a:focus,
 	.dropdown-toggle,
 	.site-header {
@@ -65,8 +65,8 @@
 	-----------------------------------------------*/
 	.button-secondary,
 	.widget .table-striped > tbody > tr:nth-child(2n+1) > td,
-	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, 
-	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -77,7 +77,7 @@
 	.navbar-nav,
 	.icon-circle,
 	#secondary-menu {
-		background: $palette-primary_2;	
+		background: $palette-primary_2;
 	}
 	.mod-alpha h2,
 	.mod-alpha p,
@@ -90,12 +90,12 @@
 	.entry-title,
 	#reply-title,
 	.tertiary-menu .current_page_item a {
-		color: $palette-primary_2;	
+		color: $palette-primary_2;
 	}
 	.mod-blockquote {
 		border-left: 7px solid $palette-primary_2;
 	}
-	.mod-divider a { 
+	.mod-divider a {
 	    background: $text-contrast-palette-primary_2;
 		color: $palette-primary_2;
 	}
@@ -115,8 +115,8 @@
 	.form-submit .submit:focus,
 	input[type="submit"]:hover,
 	input[type="submit"]:focus,
-	.navbar-default .navbar-nav > .open > a, 
-	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
 	.navbar-default .navbar-nav > .open > a:focus,
 	.navbar-default .navbar-nav > .current-menu-parent > a {
 		background: $palette-primary_3;
@@ -138,6 +138,7 @@
 	-----------------------------------------------*/
 	.background-primary,
 	.entry-footer,
+	.hentry,
 	.palette-primary.mce-content-body {
 		background: $palette-primary-neutral-color;
 		color: $text-contrast-palette-primary-neutral-color;
@@ -197,9 +198,9 @@
 	.ratings i {
 		color: #f39c12;
 	}
-	.woocommerce #respond input#submit, 
+	.woocommerce #respond input#submit,
 	.woocommerce a.button,
-	.woocommerce button.button, 
+	.woocommerce button.button,
 	.woocommerce input.button,
 	.woocommerce p.buttons a.button {
 	    background-color: #a46497;
@@ -220,43 +221,43 @@
 
 	/* ## Social Menus */
 	.menu-social li.youtube a {
-		background: #bb0000;	
+		background: #bb0000;
 	}
 	.menu-social li.facebook a {
-		background: #3b5998;	
+		background: #3b5998;
 	}
 	.menu-social li.google-plus a {
-		background: #dd4b39;	
+		background: #dd4b39;
 	}
 	.menu-social li.twitter a {
-		background: #00aced;	
+		background: #00aced;
 	}
 	.menu-social li.linkedin a {
-		background: #007bb6;	
+		background: #007bb6;
 	}
 	.menu-social li.youtube a:hover,
 	.footer-center-menu li.menu-social.youtube a:hover  {
-		background: #960000;	
+		background: #960000;
 	}
 	.menu-social li.facebook a:hover,
 	.footer-center-menu li.menu-social.facebook a:hover {
-		background: #2e4677;	
+		background: #2e4677;
 	}
 	.menu-social li.google-plus a:hover,
 	.footer-center-menu li.menu-social.google-plus a:hover {
-		background: #b42f1e;	
+		background: #b42f1e;
 	}
 	.menu-social li.twitter a:hover,
 	.footer-center-menu li.menu-social.twitter a:hover {
-		background: #0082b3;	
+		background: #0082b3;
 	}
 	.menu-social li.linkedin a:hover,
 	.footer-center-menu li.menu-social.linkedin a:hover {
-		background: #00557e;	
+		background: #00557e;
 	}
 	.menu-social li.menu-item-object-page a,
 	.menu-social li.menu-item-object-post a {
-		background: rgba(15, 19, 28, 0.75);	
+		background: rgba(15, 19, 28, 0.75);
 	}
 
 }
