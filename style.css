@@ -8,6 +8,7 @@ Version: 1.18
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-vacation
+Template: prime
 Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-38
 */
 
@@ -58,13 +59,13 @@ body,
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-  	background-size: cover; 	
+  	background-size: cover;
 }
 .background-primary {
 	padding-bottom: 50px;
 }
 .background-pattern {
-	background: url('images/pentagonpattern.jpg') repeat-x 0 bottom;	
+	background: url('images/pentagonpattern.jpg') repeat-x 0 bottom;
 	height: 135px;
 	position: relative;
     z-index: -55;
@@ -81,7 +82,7 @@ body,
 ## Typography
 -----------------------------------------------*/
 h2 {
-	font-weight: 600;	
+	font-weight: 600;
 }
 h3 {
 	font-style: italic;
@@ -90,16 +91,16 @@ h3 {
 }
 h4 {
 	font-weight: 300;
-	line-height: 30px;	
+	line-height: 30px;
 }
-.entry-content ul, 
+.entry-content ul,
 .entry-content ol {
 	padding-left: 16px;
 }
 p {
 	font-weight: 300;
 }
-.entry-content ul, 
+.entry-content ul,
 .entry-content ol {
 	font-weight: 300;
 }
@@ -110,7 +111,7 @@ p {
 	text-align: center;
 }
 .button-primary,
-.button-secondary, 
+.button-secondary,
 input[type="submit"] {
 	font-weight: 300;
 }
@@ -118,7 +119,7 @@ input[type="submit"] {
 .button-primary:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-	text-decoration: none;	
+	text-decoration: none;
 }
 .button-secondary:hover,
 .button-secondary:active {
@@ -145,7 +146,7 @@ input[type="submit"]:focus {
     text-align: center;
 }
 .tertiary-menu {
-	text-align: center;	
+	text-align: center;
 }
 .mod-divider {
 	text-align: center;
@@ -170,12 +171,12 @@ input[type="submit"]:focus {
 	font-size: 18px;
 }
 .background-alpha {
-	text-align: center;	
+	text-align: center;
 }
 .mod-alpha h2 {
 	font-size: 18px;
 	font-weight: 600;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 .mod-alpha p {
 	font-weight: 300;
@@ -204,7 +205,7 @@ input[type="submit"]:focus {
 	text-transform: none;
 }
 .mod-gamma-2 {
-	text-align: right;	
+	text-align: right;
 }
 .page-header {
 	text-align: center;
@@ -300,20 +301,20 @@ input[type="submit"]:focus {
     content:"";
 	left: 0;
     margin: 0 auto;
-    position: absolute; 
+    position: absolute;
     right: 0;
-	top: 50%;   
+	top: 50%;
     width: 90%;
     z-index: -1;
 }
-.entry-title span { 
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
-    padding: 0 15px; 
+.entry-title span {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    padding: 0 15px;
 }
 
 /* Headings */
 .hentry {
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 .heading h3 {
     margin-top: 10px;
@@ -330,14 +331,14 @@ input[type="submit"]:focus {
 ## Buttons
 -----------------------------------------------*/
 .button-primary,
-.button-secondary, 
+.button-secondary,
 input[type="submit"] {
 	border: none;
 	padding: 8px 15px;
 	/* Border Radius */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	border-radius: 4px;	
+	border-radius: 4px;
 }
 .button-primary i.fa {
 	padding-left: 8px;
@@ -384,15 +385,15 @@ hr {
 # Header
 ------------------------------------------------------------------------*/
 .site-header {
-	padding-top: 15px;	
+	padding-top: 15px;
 }
 
 /* Social */
 .social {
-	z-index: 9;	
+	z-index: 9;
 }
 .social ul {
-	list-style: none;	
+	list-style: none;
 	padding: 0;
 }
 .social a {
@@ -420,7 +421,7 @@ hr {
 }
 .social li {
 	float: left;
-    padding: 10px 3px;	
+    padding: 10px 3px;
 }
 
 /* md */
@@ -430,7 +431,7 @@ hr {
 		top: 8%;
 	}
 	.social li {
-		float: none;	
+		float: none;
 	}
 }
 
@@ -496,12 +497,12 @@ hr {
 	content: "";
 }
 .secondary-menu li a {
-	padding: 10px;	
+	padding: 10px;
 }
 
 /* Tertiary Menu */
 .tertiary-menu li a {
-	padding: 10px;	
+	padding: 10px;
 }
 .tertiary-menu {
 	background: none;
@@ -511,14 +512,14 @@ hr {
 ## Social Menus
 -----------------------------------------------*/
 .menu-social li a {
-	padding: 10px;	
+	padding: 10px;
 	width: 50px;
 	clear: both;
 }
 .menu-social li.menu-item-object-page a,
 .menu-social li.menu-item-object-post a {
-	margin: 0;	
-	width: 100px;	
+	margin: 0;
+	width: 100px;
 }
 .menu-social li.menu-item-object-page {
 	margin: 0;
@@ -531,14 +532,14 @@ hr {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.gridblock h1, 
-.gridblock h2, 
-.gridblock h3, 
-.gridblock h4, 
-.gridblock h5, 
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
 .gridblock h6,
-.gridblock ol, 
-.gridblock ul, 
+.gridblock ol,
+.gridblock ul,
 .gridblock li,
 .gridblock p {
 	margin: 10px 0;
@@ -602,7 +603,7 @@ hr {
 .image-gallery img,
 .video-gallery img,
 .slideshow-gallery img {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 .mod-img-circle img {
 	border-radius: 50%;
@@ -627,12 +628,12 @@ hr {
 	left: 0;
 	margin: 0 auto; /* this centers the line to the full width specified */
 	position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-	right: 0; 
-	top: 50%; 
+	right: 0;
+	top: 50%;
     z-index: -1;
 }
-.mod-divider a { 
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+.mod-divider a {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
 	cursor: none;
     padding: 0 15px;
 }
@@ -659,7 +660,7 @@ hr {
 -----------------------------------------------*/
 .background-alpha {
 	padding: 45px 30px;
-	position: relative;	
+	position: relative;
 }
 .background-alpha:before {
     bottom: 15px;
@@ -684,7 +685,7 @@ hr {
 	height: 20%;
     position: absolute;
     right: 10px;
-    width: 50%; 
+    width: 50%;
     z-index: -1;
 	/* Transform */
     -webkit-transform: rotate(3deg) skew(0deg);
@@ -702,7 +703,7 @@ hr {
 	/* Border Radius */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
-	border-radius: 50px;	
+	border-radius: 50px;
 }
 .icon-circle i.fa {
 	padding-top: 20px;
@@ -718,7 +719,7 @@ hr {
 	padding: 0 20px;
 }
 .mod-beta {
-	padding: 20px 0;	
+	padding: 20px 0;
 }
 .mod-beta i {
 	padding-right: 10px;
@@ -742,7 +743,7 @@ hr {
 	margin-top: 0;
 }
 .mod-gamma-2 .agent-social a {
-	padding: 0 5px;	
+	padding: 0 5px;
 }
 
 /* Agents */
@@ -795,7 +796,7 @@ hr {
 
 /* Call to Action */
 .single .call-to-action {
-	display: none;	
+	display: none;
 }
 
 /* Buttons */
@@ -806,7 +807,7 @@ hr {
 	/* Border Radius */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	border-radius: 4px;	
+	border-radius: 4px;
 	/* Transition */
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
@@ -831,7 +832,7 @@ hr {
     background-image: none;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
-	background: none;	
+	background: none;
 }
 
 /*------------------------------------------------------------------------
@@ -848,7 +849,7 @@ hr {
 
 /* Footer Center Menu */
 .footer-center-menu li a {
-	padding: 5px;	
+	padding: 5px;
 }
 
 /* xs */
