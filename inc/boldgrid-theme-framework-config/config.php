@@ -48,63 +48,63 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * Customizer Configs
 	 */
 	$boldgrid_framework_configs['customizer-options']['colors']['enabled'] = true;
-	$boldgrid_framework_configs['customizer-options']['colors']['defaults'] = array (
-		array (
+	$boldgrid_framework_configs['customizer-options']['colors']['defaults'] = array(
+		array(
 			'default' => true,
 			'format' => 'palette-primary',
 			'neutral-color' => '#ffffff',
 			'colors' => array(
-                '#446cb3',
-                '#203356',
-                '#b7b7b7',
-			)
+				'#446cb3',
+				'#203356',
+				'#b7b7b7',
+			),
 		),
-		array (
+		array(
 			'format' => 'palette-primary',
 			'neutral-color' => '#ffffff',
 			'colors' => array(
-                '#26a65b',
-                '#145230',
-                '#32cc72',
-			)
+				'#26a65b',
+				'#145230',
+				'#32cc72',
+			),
 		),
-		array (
+		array(
 			'format' => 'palette-primary',
 			'neutral-color' => '#ffffff',
 			'colors' => array(
-                '#6c7a89',
-                '#333333',
-                '#99acc0',
-			)
+				'#6c7a89',
+				'#333333',
+				'#99acc0',
+			),
 		),
-		array (
+		array(
 			'format' => 'palette-primary',
 			'neutral-color' => '#ffffff',
 			'colors' => array(
-                '#f4b350',
-                '#6c7a89',
-                '#d35400',
-			)
+				'#f4b350',
+				'#6c7a89',
+				'#d35400',
+			),
 		),
-		array (
+		array(
 			'format' => 'palette-primary',
 			'neutral-color' => '#ffffff',
 			'colors' => array(
-                '#a2ded0',
-                '#01ae92',
-                '#6c7a89',
-			)
+				'#a2ded0',
+				'#01ae92',
+				'#6c7a89',
+			),
 		),
 	);
 
-	// Get Subcategory ID from the Database
+	// Get Subcategory ID from the Database.
 	$boldgrid_install_options = get_option( 'boldgrid_install_options', array() );
 	$subcategory_id = null;
 	if ( !empty( $boldgrid_install_options['subcategory_id'] ) ) {
 		$subcategory_id = $boldgrid_install_options['subcategory_id'];
 	}
 
-	// Override Options per Subcategory
+	// Override Options per Subcategory.
 	switch ( $subcategory_id ) {
 		case 19: //<-- Real Estate
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
@@ -113,40 +113,40 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
 			break;
 
-		// Default Behavior
+		// Default Behavior.
 		default:
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][0]['default'] = true;
 			break;
 	}
 
-	// Text Contrast Colors
+	// Text Contrast Colors.
 	$boldgrid_framework_configs['customizer-options']['colors']['light_text'] = '#ffffff';
 	$boldgrid_framework_configs['customizer-options']['colors']['dark_text'] = '#545454';
 
-	// Typography Headings
+	// Typography Headings.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Raleway';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'uppercase';
 
-	// Typography Alternate Headings
+	// Typography Alternate Headings.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Open Sans';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'none';
 
-	// Typography Navigation
+	// Typography Navigation.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_family'] = 'Raleway';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_size'] = 12;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_text_transform'] = 'uppercase';
 
-	// Typography Body
+	// Typography Body.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_family'] = 'Open Sans';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 215;
 
-	// Icons
+	// Icons.
 	$boldgrid_framework_configs['social-icons']['size'] = '2x';
 
-	// Menu Locations
+	// Menu Locations.
 	$boldgrid_framework_configs['menu']['locations']['secondary'] = "Above Header";
 	$boldgrid_framework_configs['menu']['locations']['tertiary'] = "Below Primary Menu";
 	$boldgrid_framework_configs['menu']['locations']['social'] = "Fixed Side Menu";
@@ -172,7 +172,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	</div>
 HTML;
 
-	// Widget 1
+	// Widget 1.
 	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-1'][] = array (
 		'title' => 'Call To Action',
 		'text' => $widget_markup['call-to-action'],
@@ -181,7 +181,7 @@ HTML;
 		'label' => 'black-studio-tinymce'
 	);
 
-	// Name Widget Areas
+	// Name Widget Areas.
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Below Header';
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-2']['name'] = 'Above Header';
 
@@ -200,3 +200,15 @@ function filter_logo_controls( $controls ) {
 	return $controls;
 }
 add_filter( 'kirki/fields', 'filter_logo_controls' );
+
+/**
+ * Add Pattern To Pages.
+ */
+function add_page_pattern() {
+	if ( is_page() && ! is_page_template() ) : ?>
+		<div class="background-pattern">
+			<div class="container"></div>
+		</div>
+	<?php endif;
+}
+add_action( 'boldgrid_content_before', 'add_page_pattern' );
