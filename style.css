@@ -61,7 +61,6 @@ body,
   	background-size: cover; 	
 }
 .background-primary {
-	background: #fff;	
 	padding-bottom: 50px;
 }
 .background-pattern {
@@ -77,12 +76,195 @@ body,
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
+
+/*-----------------------------------------------
+## Typography
+-----------------------------------------------*/
+h2 {
+	font-weight: 600;	
+}
+h3 {
+	font-style: italic;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+h4 {
+	font-weight: 300;
+	line-height: 30px;	
+}
+.entry-content ul, 
+.entry-content ol {
+	padding-left: 16px;
+}
+p {
+	font-weight: 300;
+}
+.entry-content ul, 
+.entry-content ol {
+	font-weight: 300;
+}
+.entry-title {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+.button-primary,
+.button-secondary, 
+input[type="submit"] {
+	font-weight: 300;
+}
+.button-primary:hover,
+.button-primary:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	text-decoration: none;	
+}
+.button-secondary:hover,
+.button-secondary:active {
+	text-decoration: none;
+}
+.p-button-primary,
+.p-button-secondary {
+	white-space: nowrap;
+}
+.site-title {
+	font-weight: normal;
+	text-align: center;
+}
+.social {
+	text-align: center;
+}
+.call-to-action h2 {
+	font-weight: 300;
+}
+.navbar .navbar-collapse {
+  	text-align: center;
+}
+.secondary-menu {
+    text-align: center;
+}
+.tertiary-menu {
+	text-align: center;	
+}
+.mod-divider {
+	text-align: center;
+	text-transform: uppercase;
+}
+.mod-divider a {
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.mod-blockquote p {
+	font-weight: 300;
+}
+.page-template-page_home h3,
+.site-description {
+	text-align: center;
+}
+.ratings {
+	text-align: center;
+}
+.ratings i {
+	font-size: 18px;
+}
+.background-alpha {
+	text-align: center;	
+}
+.mod-alpha h2 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;	
+}
+.mod-alpha p {
+	font-weight: 300;
+}
+.icon-circle i.fa {
+	font-size: 35px;
+}
+.mod-beta h3 {
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+}
+.mod-beta i {
+	font-size: 25px;
+}
+.mod-gamma-1 h2 {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+}
+.mod-gamma-1 h3 {
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: none;
+}
+.mod-gamma-2 {
+	text-align: right;	
+}
+.page-header {
+	text-align: center;
+}
+.widget-title,
+.page-title {
+    font-size: 18px;
+	text-transform: uppercase;
+}
+.comment-reply-title,
+.comments-title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.form-submit .submit {
+	font-weight: 500;
+    text-transform: uppercase;
+}
+.product_title {
+	text-align: left !important;
+}
+.woocommerce p.buttons a.button:hover {
+    text-decoration: none;
+}
+.site-footer {
+	font-weight: 300;
+}
+.site-info a,
+.attribution a {
+	text-decoration: underline;
+}
+.site-info a:hover,
+.site-info a:focus,
+.attribution a:hover,
+.attribution a:focus {
+	text-decoration: none;
+}
+/* xs */
+.site-header,
+.site-footer,
+.navbar-default .navbar-nav,
+.navbar-default .navbar-nav .open .dropdown-menu {
+	text-align: center;
+}
+
 .xs-center,
 .mod-img,
 .mod-img-circle,
 .p-button-primary,
 .p-button-secondary {
 	text-align: center;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.site-header,
+	.navbar-default .navbar-nav,
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		text-align: left;
+	}
 }
 
 /* md */
@@ -95,47 +277,10 @@ body,
 	.gridblock .p-button-secondary {
 		text-align: left;
 	}
-}
-
-/*-----------------------------------------------
-## Typography
------------------------------------------------*/
-h1 {
-	font-family: 'Raleway';
-	font-size: 30px;	
-}
-h2 {
-	font-family: 'Raleway';
-	font-size: 24px;
-	font-weight: 600;	
-}
-h3 {
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-style: italic;
-    font-weight: 400;
-	margin-bottom: 25px;
-}
-h4 {
-	font-family: 'Raleway';
-	font-size: 20px;
-	font-weight: 300;
-	line-height: 30px;	
-}
-p {
-	color: #545454;
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 24px;
-}
-.entry-content ul, 
-.entry-content ol {
-	font-family: "Open Sans";
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 24px;
-	padding-left: 16px;
+	.mod-gamma-1 h2,
+	.mod-gamma-1 h3 {
+		text-align: left;
+	}
 }
 
 /*-----------------------------------------------
@@ -145,19 +290,12 @@ p {
 	display: none;
 }
 .entry-title {
-	color: #203356;
 	display: block;
-	font-family: 'Raleway';
-	font-size: 18px;
-	font-weight: 600;
 	margin: 60px 0;
 	position: relative;
-	text-transform: uppercase;
-	text-align: center;
     z-index: 1;
 }
 .entry-title:before {
-    border-top: 1px solid #a1a1a1;
 	bottom: 0;
     content:"";
 	left: 0;
@@ -170,7 +308,6 @@ p {
 }
 .entry-title span { 
     /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
-    background: #fff; 
     padding: 0 15px; 
 }
 
@@ -196,40 +333,13 @@ p {
 .button-secondary, 
 input[type="submit"] {
 	border: none;
-	font-family: 'Raleway';
-	font-size: 13px;
-	font-weight: 300;
 	padding: 8px 15px;
 	/* Border Radius */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;	
 }
-.button-primary,
-input[type="submit"] {
-	background: #446cb3;
-	color: #e1e1e1;
-}
-.button-secondary {
-	background: #203356;
-	color: #fff;
-}
-.button-primary:hover,
-.button-primary:focus,
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-	background: #758ab1;
-	color: #203356;
-	text-decoration: none;	
-}
-.button-secondary:hover,
-.button-secondary:active {
-	background: #758ab1;
-	color: #203356;
-	text-decoration: none;
-}
 .button-primary i.fa {
-	color: #203356;	
 	padding-left: 8px;
 }
 
@@ -238,7 +348,6 @@ input[type="submit"]:focus {
 .p-button-secondary {
 	margin: 40px 0 20px;
 	padding: 4px 0;
-	white-space: nowrap;
 }
 .gridblock .p-button-secondary {
 	margin: 0 0 20px;
@@ -267,7 +376,6 @@ input[type="submit"]:focus {
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	background: #b3b3b3;
 	border: 0;
 	height: 1px;
 }
@@ -276,22 +384,11 @@ hr {
 # Header
 ------------------------------------------------------------------------*/
 .site-header {
-	background: #456bb2;
-	color: #fff;
 	padding-top: 15px;	
-}
-.site-title {
-	font-weight: normal;
-	text-align: center;
-}
-.site-title a,
-.site-description {
-	color: #fff;
 }
 
 /* Social */
 .social {
-	text-align: center;
 	z-index: 9;	
 }
 .social ul {
@@ -306,35 +403,16 @@ hr {
 
 /* Call To Action */
 .call-to-action {
-	background: rgba(15, 19, 28, .75);	
 	margin-bottom: 60px;
 	margin-top: 40px;
     padding: 50px;
 }
 .call-to-action h2 {
-	border-bottom: 1px #e1e1e1 solid;
-	color: #e1e1e1;
-	font-family: 'Raleway';
-	font-size: 30px;
-	font-weight: 300;
 	margin-top: 0;
 	padding-bottom: 20px;
-	text-transform: uppercase;
-}
-.call-to-action p {
-	color: #e1e1e1;
-	font-family: 'Open Sans';
-	font-size: 14px;
-	line-height: 30px;	
 }
 
 /* xs */
-.site-header,
-.site-footer,
-.navbar-default .navbar-nav,
-.navbar-default .navbar-nav .open .dropdown-menu {
-	text-align: center;
-}
 .social ul {
 	float: none;
 	display: inline-block;
@@ -343,15 +421,6 @@ hr {
 .social li {
 	float: left;
     padding: 10px 3px;	
-}
-
-/* sm */
-@media (min-width: 768px) {
-	.site-header,
-	.navbar-default .navbar-nav,
-	.navbar-default .navbar-nav .open .dropdown-menu {
-		text-align: left;
-	}
 }
 
 /* md */
@@ -374,7 +443,6 @@ hr {
 -----------------------------------------------*/
 /* Typography */
 .navbar-default .navbar-nav {
-	background: rgba(15, 19, 28, .30);
 	float: none;
 	margin: 0 auto 10px;
 }
@@ -385,25 +453,17 @@ hr {
   	float: none;
   	vertical-align: top;
 }
-.navbar .navbar-collapse {
-  	text-align: center;
-}
 
 /* Nav links */
 .navbar-default .navbar-nav > li > a {
-	color: #e1e1e1;
-	font-family: 'Raleway';
-	font-size: 12px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	text-transform: uppercase;
 }
 
 /* Nav hover */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;
-	color: #446cb3;
 }
 
 /* Nav active */
@@ -411,25 +471,6 @@ hr {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   	background: none;
-  	color: #446cb3;
-}
-
-/* Dropdown parent */
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .current-menu-parent > a {
-	font-family: 'Raleway';
-	font-size: 12px;
-}
-
-/* Dropdown child */
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a, 
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-color: #ddd;
 }
 
 /* Nav reset */
@@ -445,93 +486,37 @@ hr {
 	margin-bottom: 0;
 }
 
-/* Nav toggle */
-.navbar-default .navbar-toggle {
-    border-color: #ddd;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-	background-color: #fff;
-}
-.navbar-default .navbar-toggle:hover .icon-bar,
-.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #222;
-}
-
 /*-----------------------------------------------
 ## Other Menus
 -----------------------------------------------*/
 /* Secondary Menu */
-.secondary-menu {
-	background: #203356;
-    text-align: center;
-}
 .secondary-menu li::after,
 .tertiary-menu li::after,
 .footer-center-menu li::after {
 	content: "";
 }
 .secondary-menu li a {
-	color: #fff;
 	padding: 10px;	
 }
 
 /* Tertiary Menu */
 .tertiary-menu li a {
-	color: #fff;
 	padding: 10px;	
 }
 .tertiary-menu {
 	background: none;
-	text-align: center;	
 }
 
 /*-----------------------------------------------
 ## Social Menus
 -----------------------------------------------*/
 .menu-social li a {
-	color: #fff;
 	padding: 10px;	
 	width: 50px;
 	clear: both;
 }
-.menu-social li.youtube a {
-	background: #bb0000;	
-}
-.menu-social li.facebook a {
-	background: #3b5998;	
-}
-.menu-social li.google-plus a {
-	background: #dd4b39;	
-}
-.menu-social li.twitter a {
-	background: #00aced;	
-}
-.menu-social li.linkedin a {
-	background: #007bb6;	
-}
-.menu-social li.youtube a:hover {
-	background: #960000;	
-}
-.menu-social li.facebook a:hover {
-	background: #2e4677;	
-}
-.menu-social li.google-plus a:hover {
-	background: #b42f1e;	
-}
-.menu-social li.twitter a:hover {
-	background: #0082b3;	
-}
-.menu-social li.linkedin a:hover {
-	background: #00557e;	
-}
 .menu-social li.menu-item-object-page a,
 .menu-social li.menu-item-object-post a {
-	background: rgba(15, 19, 28, 0.75);
-	font-size: 12px;
 	margin: 0;	
 	width: 100px;	
 }
@@ -567,7 +552,6 @@ hr {
 	padding-left: 0px;
 }
 .gridblock li:before {
-    background-color: #446cb3;
     border-radius: 1px;
     bottom: 2px;
     content: '';
@@ -635,12 +619,9 @@ hr {
 .mod-divider {
 	margin: 50px 0 35px;
 	position: relative;
-	text-align: center;
-	text-transform: uppercase;
     z-index: 1;
 }
 .mod-divider:before {
-    border-top: 1px solid #a1a1a1;
 	bottom: 0;
     content:"";
 	left: 0;
@@ -652,45 +633,24 @@ hr {
 }
 .mod-divider a { 
     /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
-    background: #fff;
-	color: #203356;
 	cursor: none;
-	font-family: 'Raleway';
-	font-size: 18px;
-	font-weight: 600; 
     padding: 0 15px;
-	text-decoration: none;
 }
 
 /* Blockquotes */
 .mod-blockquote {
-	border-left: 7px solid #b7b7b7;
 	padding-bottom: 0;
 	padding-top: 0;
 }
 .mod-blockquote p {
-	color: #545454;
-	font-family: "Raleway";
-	font-size: 26px;
-	font-weight: 300;
-	line-height: 32px;
 	padding-left: 15px;
-}
-
-/* Headings */
-.page-template-page_home h3,
-.site-description {
-	text-align: center;
 }
 
 /* Ratings */
 .ratings {
 	margin-bottom: 25px;
-	text-align: center;
 }
 .ratings i {
-	color: #f39c12;
-	font-size: 18px;
 	padding: 10px 5px;
 }
 
@@ -698,14 +658,8 @@ hr {
 ## Alpha
 -----------------------------------------------*/
 .background-alpha {
-	background: #446cb3;
 	padding: 45px 30px;
-	position: relative;
-	text-align: center;	
-	/* Box Shadow */
-	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.1) inset;
-	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.1) inset;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+	position: relative;	
 }
 .background-alpha:before {
     bottom: 15px;
@@ -716,10 +670,6 @@ hr {
     position: absolute;
     width: 50%;
 	z-index: -1;
-	/* Box Shadow */
-	-webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-	-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
 	/* Transform */
     -webkit-transform: rotate(-3deg) skew(-0deg);
     -moz-transform: rotate(-3deg) skew(-0deg);
@@ -736,10 +686,6 @@ hr {
     right: 10px;
     width: 50%; 
     z-index: -1;
-	/* Box Shadow */
-	-webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-	-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
 	/* Transform */
     -webkit-transform: rotate(3deg) skew(0deg);
     -moz-transform: rotate(3deg) skew(0deg);
@@ -747,34 +693,18 @@ hr {
     -o-transform: rotate(3deg) skew(0deg);
     transform: rotate(3deg) skew(0deg);
 }
-.mod-alpha h2 {
-	color: #203356;
-	font-family: 'Raleway';
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: uppercase;	
-}
-.mod-alpha p {
-	color: #b7b7b7;
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-weight: 300;
-}
 
 /* Icons */
 .icon-circle {
-	background: #203356;
 	height: 80px;
 	margin: 0 auto;
 	width: 80px;
 	/* Border Radius */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
-	border-radius: 50px;;	
+	border-radius: 50px;	
 }
 .icon-circle i.fa {
-	color: #446cb3;	
-	font-size: 35px;
 	padding-top: 20px;
 }
 
@@ -784,24 +714,13 @@ hr {
 .background-beta {
 	background:url('images/weave-pattern.png') repeat;
 	height: auto;
-	margin: 0 auto 60px;
+	margin: 30px auto 60px;
 	padding: 0 20px;
 }
 .mod-beta {
 	padding: 20px 0;	
 }
-.mod-beta h3 {
-	color: #545454;
-	font-family: 'Open Sans';
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 300;
-	text-align: center;
-	text-transform: uppercase;
-}
 .mod-beta i {
-	color: #446cb3;
-	font-size: 25px;
 	padding-right: 10px;
 }
 
@@ -816,29 +735,13 @@ hr {
     margin-bottom: 15px;
 }
 .mod-gamma-1 h2 {
-	color: #203356;
-	font-family: 'Raleway';
-	font-size: 18px;
-	font-weight: 500;
 	margin-bottom: 5px;
 	margin-top: 0;
-	text-align: left;
-	text-transform: uppercase;
 }
 .mod-gamma-1 h3 {
-	color: #545454;
-	font-family: 'Raleway';
-	font-size: 14px;
-	font-weight: 400;
 	margin-top: 0;
-	text-align: left;
-}
-.mod-gamma-2 {
-	text-align: right;	
 }
 .mod-gamma-2 .agent-social a {
-	font-family: 'Raleway';
-	font-size: 14px;
 	padding: 0 5px;	
 }
 
@@ -873,35 +776,18 @@ hr {
 }
 .page-header {
 	border: none;
-	text-align: center;
 	margin: 40px 0 10px;
 	padding: 0;
 }
-.widget-title,
-.page-title {
-    font-family: "Raleway";
-    font-size: 18px;
-	text-transform: uppercase;
-}
 .widget-area {
-    border: 1px solid #a1a1a1;
     padding: 25px;
 	margin-top: 25px;
 }
 
 /* Comments */
-.comment-reply-title,
-.comments-title {
-    font-family: "Raleway";
-    font-size: 24px;
-    text-transform: uppercase;
-}
 .comment-form-comment label {
     float: left;
     padding-right: 15px;
-}
-.comment-content p {
-	color: #545454 !important;
 }
 .panel-footer {
 	padding: 20px 15px;
@@ -914,15 +800,9 @@ hr {
 
 /* Buttons */
 .form-submit .submit {
-	background: #446cb3 none repeat scroll 0 0;
     border: medium none;
-    color: #e1e1e1;
-    font-family: "Raleway";
-    font-size: 13px;
-	font-weight: 500;
     margin: 10px 0;
     padding: 8px 15px;
-    text-transform: uppercase;
 	/* Border Radius */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -932,12 +812,6 @@ hr {
 	-moz-transition: all .5s;
 	-o-transition: all .5s;
 	transition: all .5s;
-}
-.form-submit .submit:hover,
-.form-submit .submit:focus {
-	background-color: #758ab1;
-    border-color: #758ab1;
-	color: #203356;
 }
 
 /*------------------------------------------------------------------------
@@ -949,97 +823,36 @@ hr {
 -----------------------------------------------*/
 .product_title {
 	margin-bottom: 20px;
-	text-align: left !important;
 }
 .product_title:before {
     border-top: none;
 }
-.woocommerce #respond input#submit, 
-.woocommerce a.button,
-.woocommerce button.button, 
-.woocommerce input.button,
-.woocommerce p.buttons a.button {
-    background-color: #a46497;
-    color: #fff;
-}
 .woocommerce p.buttons a.button:hover {
-	background-color: #dad8da;
     background-image: none;
-    color: #515151;
-    text-decoration: none;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;	
-}
-.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
-    color: #333;
-}
-.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
-    color: #333;
-}
-.comment-text {
-	background: #fff;	
-}
-.woocommerce div.product form.cart .variations label {
-	color: #333;	
 }
 
 /*------------------------------------------------------------------------
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	background: #2f3236;
-	color: #fff;
-	font-family: 'Open Sans';
-	font-weight: 300;
 	margin-left: -15px;
 	margin-right: -15px;
-	padding: 20px 0;
+	padding: 20px 15px;
 }
 .site-info {
 	margin-top: 30px;
 }
-.site-info p,
-.site-info a,
-.attribution p,
-.attribution a {
-	color: #e1e1e1;
-}
-.site-info a,
-.attribution a {
-	text-decoration: underline;
-}
-.site-info a:hover,
-.site-info a:focus,
-.attribution a:hover,
-.attribution a:focus {
-	text-decoration: none;
-}
 
 /* Footer Center Menu */
 .footer-center-menu li a {
-	color: #fff;
 	padding: 5px;	
-}
-.footer-center-menu li.menu-social.youtube a:hover {
-	color: #960000;	
-}
-.footer-center-menu li.menu-social.facebook a:hover {
-	color: #2e4677;	
-}
-.footer-center-menu li.menu-social.google-plus a:hover {
-	color: #b42f1e;	
-}
-.footer-center-menu li.menu-social.twitter a:hover {
-	color: #0082b3;	
-}
-.footer-center-menu li.menu-social.linkedin a:hover {
-	color: #00557e;	
 }
 
 /* xs */
 .attribution {
-	color: #fff;
 	margin-bottom: 30px;
 }
 .disabled-footer .site-footer {
