@@ -107,6 +107,23 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 215;
 
+	// Typography Relationships
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h2' ]= array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.3, 
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-gamma-1 h2' ]= array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.3, 
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.background-primary h3' ]= array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.0, 
+	);
+
 	// Icons
 	$boldgrid_framework_configs['social-icons']['size'] = '2x';
 

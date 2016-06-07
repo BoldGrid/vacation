@@ -1,10 +1,10 @@
 /*
 Theme Name: Vacation
 Author: The BoldGrid Team
-Theme URI: http://www.boldgrid.com/vacation
-Author URI: http://www.boldgrid.com/the-team
+Theme URI: https://www.boldgrid.com/vacation
+Author URI: https://www.boldgrid.com/the-team
 Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
-Version: 1.18
+Version: 1.19
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-vacation
@@ -29,7 +29,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Social Menus
 # GridBLocks
 	## Positioning
-	## Alternates
+	## Et Cetera
 # Modules
 	## Universal
 	## Global
@@ -37,9 +37,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Beta
 	## Gamma
 # Pages
-	## Gallery
 # Posts
 # Plugins
+	## WP Canvas Gallery
 	## WooCommerce
 # Footer
 ------------------------------------------------------------------------*/
@@ -53,12 +53,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 -----------------------------------------------*/
 body,
 .custom-background {
-	overflow-x: hidden;
-	/* Background Size */
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover; 	
+	overflow-x: hidden; 	
 }
 .background-primary {
 	padding-bottom: 50px;
@@ -80,181 +75,90 @@ body,
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
-h2 {
-	font-weight: 600;	
+h2,
+.mod-alpha h2,
+.mod-gamma-1 h2,
+.entry-title,
+.mod-divider a,
+.form-submit .submit {
+	font-weight: bold;	
 }
 h3 {
 	font-style: italic;
-    font-weight: 400;
     margin-bottom: 25px;
-}
-h4 {
-	font-weight: 300;
-	line-height: 30px;	
 }
 .entry-content ul, 
 .entry-content ol {
 	padding-left: 16px;
 }
-p {
-	font-weight: 300;
-}
-.entry-content ul, 
-.entry-content ol {
-	font-weight: 300;
-}
-.entry-title {
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: uppercase;
-	text-align: center;
-}
-.button-primary,
-.button-secondary, 
-input[type="submit"] {
-	font-weight: 300;
-}
-.button-primary:hover,
-.button-primary:focus,
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-	text-decoration: none;	
-}
-.button-secondary:hover,
-.button-secondary:active {
-	text-decoration: none;
-}
 .p-button-primary,
 .p-button-secondary {
 	white-space: nowrap;
-}
-.site-title {
-	font-weight: normal;
-	text-align: center;
-}
-.social {
-	text-align: center;
-}
-.call-to-action h2 {
-	font-weight: 300;
-}
-.navbar .navbar-collapse {
-  	text-align: center;
-}
-.secondary-menu {
-    text-align: center;
-}
-.tertiary-menu {
-	text-align: center;	
-}
-.mod-divider {
-	text-align: center;
-	text-transform: uppercase;
-}
-.mod-divider a {
-	font-size: 18px;
-	font-weight: 600;
-	text-decoration: none;
-}
-.mod-blockquote p {
-	font-weight: 300;
-}
-.page-template-page_home h3,
-.site-description {
-	text-align: center;
-}
-.ratings {
-	text-align: center;
-}
-.ratings i {
-	font-size: 18px;
-}
-.background-alpha {
-	text-align: center;	
-}
-.mod-alpha h2 {
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: uppercase;	
-}
-.mod-alpha p {
-	font-weight: 300;
-}
-.icon-circle i.fa {
-	font-size: 35px;
-}
-.mod-beta h3 {
-	font-style: normal;
-	font-size: 18px;
-	font-weight: 300;
-	text-align: center;
-}
-.mod-beta i {
-	font-size: 25px;
-}
-.mod-gamma-1 h2 {
-	font-size: 18px;
-	font-weight: 500;
-	text-align: center;
-}
-.mod-gamma-1 h3 {
-	font-size: 14px;
-	font-weight: 400;
-	text-align: center;
-	text-transform: none;
-}
-.mod-gamma-2 {
-	text-align: right;	
-}
-.page-header {
-	text-align: center;
-}
-.widget-title,
-.page-title {
-    font-size: 18px;
-	text-transform: uppercase;
-}
-.comment-reply-title,
-.comments-title {
-    font-size: 24px;
-    text-transform: uppercase;
-}
-.form-submit .submit {
-	font-weight: 500;
-    text-transform: uppercase;
-}
-.product_title {
-	text-align: left !important;
-}
-.woocommerce p.buttons a.button:hover {
-    text-decoration: none;
-}
-.site-footer {
-	font-weight: 300;
 }
 .site-info a,
 .attribution a {
 	text-decoration: underline;
 }
+.button-primary:hover,
+.button-primary:focus,
+.button-secondary:hover,
+.button-secondary:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.mod-divider a,
 .site-info a:hover,
 .site-info a:focus,
 .attribution a:hover,
-.attribution a:focus {
-	text-decoration: none;
+.attribution a:focus,
+.woocommerce p.buttons a.button:hover,
+.woocommerce p.buttons a.button:focus {
+	text-decoration: none;	
 }
+.site-title,
+.entry-title,
+.page-header,
+.social,
+.site-description,
+.navbar .navbar-collapse,
+.secondary-menu,
+.tertiary-menu,
+.mod-divider,
+.ratings,
+.background-alpha,
+.mod-beta h3,
+.page-template-page_home h3 {
+	text-align: center;
+}
+.product_title {
+	text-align: left !important;
+}
+.mod-gamma-2 {
+	text-align: right;	
+}
+
+/* Icons */
+.ratings i {
+	font-size: 18px;
+}
+.mod-beta i {
+	font-size: 25px;
+}
+.icon-circle i.fa {
+	font-size: 35px;
+}
+
 /* xs */
 .site-header,
 .site-footer,
 .navbar-default .navbar-nav,
-.navbar-default .navbar-nav .open .dropdown-menu {
-	text-align: center;
-}
-
+.navbar-default .navbar-nav .open .dropdown-menu,
 .xs-center,
 .mod-img,
 .mod-img-circle,
 .p-button-primary,
-.p-button-secondary {
+.p-button-secondary,
+.mod-gamma-1 h2,
+.mod-gamma-1 h3 {
 	text-align: center;
 }
 
@@ -274,9 +178,7 @@ input[type="submit"]:focus {
 	.mod-img-circle,
 	.call-to-action .p-button-primary,
 	.gridblock .p-button-primary,
-	.gridblock .p-button-secondary {
-		text-align: left;
-	}
+	.gridblock .p-button-secondary,
 	.mod-gamma-1 h2,
 	.mod-gamma-1 h3 {
 		text-align: left;
@@ -307,7 +209,6 @@ input[type="submit"]:focus {
     z-index: -1;
 }
 .entry-title span { 
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
     padding: 0 15px; 
 }
 
@@ -325,6 +226,10 @@ input[type="submit"]:focus {
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -545,7 +450,7 @@ hr {
 }
 
 /*-----------------------------------------------
-## Alternates
+## Et Cetera
 -----------------------------------------------*/
 .gridblock li {
 	list-style-type: none;
@@ -611,11 +516,6 @@ hr {
 /*-----------------------------------------------
 ## Global
 -----------------------------------------------*/
-.mod-space-1 {
-	margin-top: 50px;
-}
-
-/* Dividers */
 .mod-divider {
 	margin: 50px 0 35px;
 	position: relative;
@@ -625,33 +525,33 @@ hr {
 	bottom: 0;
     content:"";
 	left: 0;
-	margin: 0 auto; /* this centers the line to the full width specified */
-	position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+	margin: 0 auto;
+	position: absolute;
 	right: 0; 
 	top: 50%; 
     z-index: -1;
 }
-.mod-divider a { 
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+.mod-divider a {	
 	cursor: none;
     padding: 0 15px;
 }
-
-/* Blockquotes */
-.mod-blockquote {
-	padding-bottom: 0;
-	padding-top: 0;
+.mod-space-1 {
+	margin-top: 50px;
 }
-.mod-blockquote p {
-	padding-left: 15px;
-}
-
-/* Ratings */
 .ratings {
 	margin-bottom: 25px;
 }
 .ratings i {
 	padding: 10px 5px;
+}
+blockquote,
+.mod-blockquote {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+blockquote p,
+.mod-blockquote p {
+	padding-left: 15px;
 }
 
 /*-----------------------------------------------
@@ -754,19 +654,6 @@ hr {
 # Pages
 ------------------------------------------------------------------------*/
 
-/*-----------------------------------------------
-## Gallery
------------------------------------------------*/
-.gallery-icon img:hover {
-	transition: all .5s;
-	/* Filter */
-	filter: brightness(35%);
-	-webkit-filter: brightness(35%);
-	-moz-filter: brightness(35%);
-	-o-filter: brightness(35%);
-	-ms-filter: brightness(35%);
-}
-
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
@@ -819,6 +706,19 @@ hr {
 ------------------------------------------------------------------------*/
 
 /*-----------------------------------------------
+## WP Canvas Gallery
+-----------------------------------------------*/
+.gallery-icon img:hover {
+	transition: all .5s;
+	/* Filter */
+	filter: brightness(35%);
+	-webkit-filter: brightness(35%);
+	-moz-filter: brightness(35%);
+	-o-filter: brightness(35%);
+	-ms-filter: brightness(35%);
+}
+
+/*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
 .product_title {
@@ -851,6 +751,16 @@ hr {
 	padding: 5px;	
 }
 
+/* Sticky Footer */
+html, body, .site, .site-content {
+	height: 100%;
+}
+#boldgrid-sticky-wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
 /* xs */
 .attribution {
 	margin-bottom: 30px;
@@ -868,16 +778,4 @@ hr {
 	.attribution {
 		padding-bottom: 0;
 	}
-}
-
-/*-----------------------------------------------
-## Sticky Footer - Move to Framework
------------------------------------------------*/
-html, body, .site, .site-content {
-	height: 100%;
-}
-#boldgrid-sticky-wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
 }

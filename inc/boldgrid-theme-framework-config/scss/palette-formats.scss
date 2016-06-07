@@ -92,6 +92,7 @@
 	.tertiary-menu .current_page_item a {
 		color: $palette-primary_2;	
 	}
+	blockquote,
 	.mod-blockquote {
 		border-left: 7px solid $palette-primary_2;
 	}
@@ -148,6 +149,7 @@
 		background: $palette-primary-neutral-color;
 	}
 	p,
+	blockquote p,
 	.mod-blockquote p,
 	.mod-gamma-1 h2,
 	.mod-gamma-1 h3,
