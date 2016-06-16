@@ -4,8 +4,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * General Configs
 	 */
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-vacation'; // Text domain
-	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
+	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
 
 	/**
@@ -107,21 +107,24 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 215;
 
+	// Typography Tagline Classes
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h5 alt-font';
+
 	// Typography Relationships
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h2' ]= array(
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.entry-header h1.entry-title, .mod-alpha h2, .mod-gamma-1 h2, .mod-divider a' ]= array(
 		'type' => 'headings',
 		'round' => 'floor',
 		'amount' => 1.3, 
 	);
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-gamma-1 h2' ]= array(
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['page-template-default h2' ]= array(
 		'type' => 'headings',
 		'round' => 'floor',
-		'amount' => 1.3, 
+		'amount' => 1.9, 
 	);
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.background-primary h3' ]= array(
 		'type' => 'headings',
 		'round' => 'floor',
-		'amount' => 1.0, 
+		'amount' => 1, 
 	);
 
 	// Icons
