@@ -196,22 +196,21 @@ input[type="submit"]:focus,
 	display: block;
 	margin: 60px 0;
 	position: relative;
-    z-index: 1;
+	z-index: 1;
 }
 .entry-title:before {
 	bottom: 0;
-    content:"";
+	content:"";
 	left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
 	top: 50%;
-    width: 90%;
-    z-index: -1;
+	width: 90%;
+	z-index: -1;
 }
 .entry-title span {
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */
-    padding: 0 15px;
+	padding: 0 15px;
 }
 
 /* Headings */
@@ -219,15 +218,18 @@ input[type="submit"]:focus,
 	margin: 0 auto;
 }
 .heading h3 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 .heading {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -260,7 +262,7 @@ input[type="submit"] {
 .button-primary,
 .button-secondary {
 	display: block;
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 /* sm */
@@ -268,7 +270,7 @@ input[type="submit"] {
 	.button-primary,
 	.button-secondary {
 		display: inline;
-    	margin-top: 0;
+		margin-top: 0;
 	}
 	.gridblock .p-button-secondary {
 		margin: 40px 0 20px;
@@ -291,16 +293,16 @@ hr {
 }
 
 /* Social */
-#menu-social {
+.social {
 	z-index: 9;
 }
-#menu-social ul {
+.social ul {
 	list-style: none;
 	padding: 0;
 }
-#menu-social a {
-    float: left;
-    height: 49px;
+.social a {
+	float: left;
+	height: 49px;
 	margin: 2px 0;
 }
 
@@ -308,7 +310,7 @@ hr {
 .call-to-action {
 	margin-bottom: 60px;
 	margin-top: 40px;
-    padding: 50px;
+	padding: 50px;
 }
 .call-to-action h2 {
 	margin-top: 0;
@@ -316,23 +318,23 @@ hr {
 }
 
 /* xs */
-#menu-social ul {
+.social ul {
 	float: none;
 	display: inline-block;
 	vertical-align: top;
 }
-#menu-social li {
+.social li {
 	float: left;
-    padding: 10px 3px;
+	padding: 10px 3px;
 }
 
 /* md */
 @media (min-width: 1075px) {
-	#menu-social {
+	.social {
 		position: absolute;
 		top: 8%;
 	}
-	#menu-social li {
+	.social li {
 		float: none;
 	}
 }
@@ -352,9 +354,9 @@ hr {
 
 /* Nav Center */
 .navbar .navbar-nav {
-  	display: inline-block;
-  	float: none;
-  	vertical-align: top;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
 }
 
 /* Nav links */
@@ -373,14 +375,13 @@ hr {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  	background: none;
+	background: none;
 }
 
 /* Nav reset */
 .navbar {
 	background: none;
 	border: none;
-	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -455,14 +456,14 @@ hr {
 	padding-left: 0px;
 }
 .gridblock li:before {
-    border-radius: 1px;
-    bottom: 2px;
-    content: '';
-    display: inline-block;
-    height: 6px;
-    margin-right: 8px;
-    position: relative;
-    width: 6px;
+	border-radius: 1px;
+	bottom: 2px;
+	content: '';
+	display: inline-block;
+	height: 6px;
+	margin-right: 8px;
+	position: relative;
+	width: 6px;
 }
 
 /*------------------------------------------------------------------------
@@ -476,27 +477,25 @@ hr {
 	margin: 0 !important;
 	padding: 0 !important;
 }
-.mod-space,
-.mod-space-2x,
-.mod-space-3x,
-.mod-space-4x,
-.mod-space-5x {
-	background: none;
-}
 .mod-space {
 	height: 15px;
+	background: none;
 }
 .mod-space-2x {
 	height: 30px;
+	background: none;
 }
 .mod-space-3x {
 	height: 45px;
+	background: none;
 }
 .mod-space-4x {
 	height: 60px;
+	background: none;
 }
 .mod-space-5x {
 	height: 75px;
+	background: none;
 }
 
 /* Images */
@@ -514,47 +513,43 @@ hr {
 /*-----------------------------------------------
 ## Global
 -----------------------------------------------*/
-.mod-space-1 {
-	margin-top: 50px;
-}
-
 /* Dividers */
 .mod-divider {
 	margin: 50px 0 35px;
 	position: relative;
-    z-index: 1;
+	z-index: 1;
 }
 .mod-divider:before {
 	bottom: 0;
-    content:"";
+	content:"";
 	left: 0;
 	margin: 0 auto; /* this centers the line to the full width specified */
 	position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
 	right: 0;
 	top: 50%;
-    z-index: -1;
+	z-index: -1;
 }
 .mod-divider a {
-    /* to hide the lines from behind the text, you have to set the background color the same as the container */
 	cursor: none;
-    padding: 0 15px;
+	padding: 0 15px;
 }
-
-/* Blockquotes */
-.mod-blockquote {
-	padding-bottom: 0;
-	padding-top: 0;
+.mod-space-1 {
+	margin-top: 50px;
 }
-.mod-blockquote p {
-	padding-left: 15px;
-}
-
-/* Ratings */
 .ratings {
 	margin-bottom: 25px;
 }
 .ratings i {
 	padding: 10px 5px;
+}
+blockquote,
+.mod-blockquote {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+blockquote p,
+.mod-blockquote p {
+	padding-left: 15px;
 }
 
 /*-----------------------------------------------
@@ -565,36 +560,34 @@ hr {
 	position: relative;
 }
 .background-alpha:before {
-    bottom: 15px;
+	bottom: 15px;
 	content: '';
 	display: block;
-    height: 20%;
-    left: 10px;
-    position: absolute;
-    width: 50%;
+	height: 20%;
+	left: 10px;
+	position: absolute;
+	width: 50%;
 	z-index: -1;
-	/* Transform */
-    -webkit-transform: rotate(-3deg) skew(-0deg);
-    -moz-transform: rotate(-3deg) skew(-0deg);
-    -ms-transform: rotate(-3deg) skew(-0deg);
-    -o-transform: rotate(-3deg) skew(-0deg);
-    transform: rotate(-3deg) skew(-0deg);
-}
+	-webkit-transform: rotate(-3deg) skew(-0deg);
+	-moz-transform: rotate(-3deg) skew(-0deg);
+	-ms-transform: rotate(-3deg) skew(-0deg);
+	-o-transform: rotate(-3deg) skew(-0deg);
+	transform: rotate(-3deg) skew(-0deg);
+	}
 .background-alpha:after {
 	bottom: 15px;
-    content: '';
+	content: '';
 	display: block;
 	height: 20%;
-    position: absolute;
-    right: 10px;
-    width: 50%;
-    z-index: -1;
-	/* Transform */
-    -webkit-transform: rotate(3deg) skew(0deg);
-    -moz-transform: rotate(3deg) skew(0deg);
-    -ms-transform: rotate(3deg) skew(0deg);
-    -o-transform: rotate(3deg) skew(0deg);
-    transform: rotate(3deg) skew(0deg);
+	position: absolute;
+	right: 10px;
+	width: 50%;
+	z-index: -1;
+	-webkit-transform: rotate(3deg) skew(0deg);
+	-moz-transform: rotate(3deg) skew(0deg);
+	-ms-transform: rotate(3deg) skew(0deg);
+	-o-transform: rotate(3deg) skew(0deg);
+	transform: rotate(3deg) skew(0deg);
 }
 
 /* Icons */
@@ -635,7 +628,7 @@ hr {
 	margin-top: 35px;
 }
 .mod-gamma img {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 .mod-gamma-1 h2 {
 	margin-bottom: 5px;
@@ -657,19 +650,6 @@ hr {
 # Pages
 ------------------------------------------------------------------------*/
 
-/*-----------------------------------------------
-## Gallery
------------------------------------------------*/
-.gallery-icon img:hover {
-	transition: all .5s;
-	/* Filter */
-	filter: brightness(35%);
-	-webkit-filter: brightness(35%);
-	-moz-filter: brightness(35%);
-	-o-filter: brightness(35%);
-	-ms-filter: brightness(35%);
-}
-
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
@@ -683,14 +663,14 @@ hr {
 	padding: 0;
 }
 .widget-area {
-    padding: 25px;
+	padding: 25px;
 	margin-top: 25px;
 }
 
 /* Comments */
 .comment-form-comment label {
-    float: left;
-    padding-right: 15px;
+	float: left;
+	padding-right: 15px;
 }
 .panel-footer {
 	padding: 20px 15px;
@@ -703,9 +683,9 @@ hr {
 
 /* Buttons */
 .form-submit .submit {
-    border: medium none;
-    margin: 10px 0;
-    padding: 8px 15px;
+	border: medium none;
+	margin: 10px 0;
+	padding: 8px 15px;
 	/* Border Radius */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -722,16 +702,28 @@ hr {
 ------------------------------------------------------------------------*/
 
 /*-----------------------------------------------
+## WP Canvas Gallery
+-----------------------------------------------*/
+.gallery-icon img:hover {
+	transition: all .5s;
+	filter: brightness(35%);
+	-webkit-filter: brightness(35%);
+	-moz-filter: brightness(35%);
+	-o-filter: brightness(35%);
+	-ms-filter: brightness(35%);
+}
+
+/*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
 .product_title {
 	margin-bottom: 20px;
 }
 .product_title:before {
-    border-top: none;
+	border-top: none;
 }
 .woocommerce p.buttons a.button:hover {
-    background-image: none;
+	background-image: none;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
@@ -754,6 +746,16 @@ hr {
 	padding: 5px;
 }
 
+/* Sticky Footer - Move to Framework */
+html, body, .site, .site-content {
+	height: 100%;
+}
+#boldgrid-sticky-wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
 /* xs */
 .attribution {
 	margin-bottom: 30px;
@@ -771,16 +773,4 @@ hr {
 	.attribution {
 		padding-bottom: 0;
 	}
-}
-
-/*-----------------------------------------------
-## Sticky Footer - Move to Framework
------------------------------------------------*/
-html, body, .site, .site-content {
-	height: 100%;
-}
-#boldgrid-sticky-wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
 }
