@@ -161,9 +161,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['social-icons']['size'] = '2x';
 
 	// Menu Locations.
-	$boldgrid_framework_configs['menu']['locations']['secondary'] = "Above Header";
-	$boldgrid_framework_configs['menu']['locations']['tertiary'] = "Below Primary Menu";
-	$boldgrid_framework_configs['menu']['locations']['social'] = "Fixed Side Menu";
+	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Above Header';
+	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Below Primary Menu';
+	$boldgrid_framework_configs['menu']['locations']['social'] = 'Fixed Side Menu';
 	$boldgrid_framework_configs['menu']['prototype']['social']['menu_class'] = 'menu-items';
 
 	/**
