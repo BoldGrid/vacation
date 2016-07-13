@@ -114,7 +114,7 @@ input[type="submit"]:focus,
 .site-title,
 .entry-title,
 .page-header,
-.social,
+.social-menu,
 .site-description,
 .navbar .navbar-collapse,
 .secondary-menu,
@@ -282,14 +282,14 @@ hr {
 }
 
 /* Social */
-.social {
+.social-menu {
 	z-index: 9;
 }
-.social ul {
+.social-menu ul {
 	list-style: none;
 	padding: 0;
 }
-.social a {
+.social-menu a {
 	float: left;
 	height: 49px;
 	margin: 2px 0;
@@ -307,23 +307,22 @@ hr {
 }
 
 /* xs */
-.social ul {
+.social-menu ul {
 	float: none;
 	display: inline-block;
 	vertical-align: top;
 }
-.social li {
+.social-menu li {
 	float: left;
-	padding: 10px 3px;
 }
 
 /* md */
 @media (min-width: 1075px) {
-	.social {
+	.social-menu {
 		position: absolute;
 		top: 8%;
 	}
-	.social li {
+	.social-menu li {
 		float: none;
 	}
 }
@@ -405,6 +404,7 @@ hr {
 -----------------------------------------------*/
 .menu-social li a {
 	padding: 10px;
+	margin: 0;
 	width: 50px;
 	clear: both;
 }
