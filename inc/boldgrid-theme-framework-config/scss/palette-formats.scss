@@ -138,9 +138,12 @@
 	-----------------------------------------------*/
 	.background-primary,
 	.entry-footer,
-	.hentry,
 	.palette-primary.mce-content-body {
 		background: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+	.page-template-default .site-content {
+		background-color: $palette-primary-neutral-color;
 		color: $text-contrast-palette-primary-neutral-color;
 	}
 	&.disabled-footer .site-footer,
@@ -160,7 +163,7 @@
 	}
 	.entry-title:before,
 	.mod-divider:before {
-	    border-top: 1px solid $text-contrast-palette-primary-neutral-color;
+		border-top: 1px solid $text-contrast-palette-primary-neutral-color;
 	}
 	.widget-area {
 		border: 1px solid $text-contrast-palette-primary-neutral-color;
