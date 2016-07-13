@@ -205,8 +205,8 @@ input[type="submit"]:focus,
 	width: 90%;
 	z-index: -1;
 }
-.entry-title span {
-	padding: 0 15px;
+.entry-title a {
+	padding: 0 1em;
 }
 
 /* Headings */
