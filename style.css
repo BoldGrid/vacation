@@ -205,6 +205,7 @@ input[type="submit"]:focus,
 	width: 90%;
 	z-index: -1;
 }
+.single .entry-title,
 .entry-title a {
 	padding: 0 1em;
 }

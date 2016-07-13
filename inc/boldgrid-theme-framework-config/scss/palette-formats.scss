@@ -127,6 +127,7 @@
 		border-top: 1px solid $palette-primary_3;
 	}
 	.mod-divider a,
+	&.single .entry-title,
 	.entry-title a,
 	.comment-text {
 		background: $palette-primary-neutral-color;
