@@ -55,8 +55,7 @@
 	.site-title a,
 	.site-description,
 	.secondary-menu li a,
-	.tertiary-menu li a,
-	.footer-center-menu li a {
+	.tertiary-menu li a {
 		color: $text-contrast-palette-primary_1;
 	}
 
@@ -92,6 +91,13 @@
 	.tertiary-menu .current_page_item a {
 		color: $palette-primary_2;
 	}
+	.secondary-menu,
+	.footer-center-menu {
+		.current_page_item a {
+			color: $palette-primary_1;
+		}
+	}
+
 	.mod-blockquote {
 		border-left: 7px solid $palette-primary_2;
 	}
@@ -133,7 +139,9 @@
 		background: $palette-primary-neutral-color;
 		color: $text-contrast-palette-primary-neutral-color;
 	}
-
+	.footer-center-menu li a {
+		color: $text-contrast-palette-primary_3;
+	}
 	/*-----------------------------------------------
 	## Neutral
 	-----------------------------------------------*/
