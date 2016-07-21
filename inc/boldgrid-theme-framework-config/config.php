@@ -28,6 +28,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// No container is needed on home page for this theme.
 	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-content'] = '';
 
+	// Add container to call to action widget.
+	$boldgrid_framework_configs['template']['pages']['global']['call-to-action'] = 'container';
+
 	// Assign Locations for Generic Header.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
 		'12' => array( '[menu]secondary' ),
