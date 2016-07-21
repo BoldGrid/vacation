@@ -150,6 +150,7 @@
 	&.error404 .site-content,
 	&.page-template-default .site-content,
 	&.single .site-content,
+	&.archive .site-content,
 	&.mce-content-body {
 		background: $palette-primary-neutral-color;
 		color: $text-contrast-palette-primary-neutral-color;
