@@ -584,6 +584,11 @@ blockquote p,
 	background: transparent;
 	border: none;
 }
+/* Search Page */
+.search .jumbotron {
+	text-align: center;
+	background: none;
+}
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
