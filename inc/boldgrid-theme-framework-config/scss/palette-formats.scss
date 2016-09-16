@@ -62,7 +62,9 @@
 	.dropdown-menu > li > a:hover,
 	.dropdown-menu > li > a:focus,
 	.dropdown-toggle,
-	.site-header {
+	.site-header,
+	.nav > li > a:focus,
+	.nav > li > a:hover {
 		background:  $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
