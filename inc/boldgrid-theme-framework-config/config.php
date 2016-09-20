@@ -105,10 +105,21 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Override Options per Subcategory.
 	switch ( $boldgrid_framework_configs['inspiration']['subcategory_key'] ) {
+		case 'Consulting':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][1]['default'] = true;
+			break;
+		case 'Fashion':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][3]['default'] = true;
+			break;
+		case 'Home Repair':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
+			break;
+		case 'Photography':
+			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
+			break;
 		case 'Real Estate':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
 			break;
-
 		case 'Restaurant':
 			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
 			break;
