@@ -2,6 +2,7 @@
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
+	color: $text-contrast-palette-primary-neutral-color;
 
 	/*-----------------------------------------------
 	## 1
@@ -158,6 +159,7 @@
 	.footer-center-menu li a {
 		color: $text-contrast-palette-primary_3;
 	}
+
 	/*-----------------------------------------------
 	## Neutral
 	-----------------------------------------------*/
@@ -178,7 +180,6 @@
 	#boldgrid-sticky-push {
 		background: $palette-primary-neutral-color;
 	}
-	p,
 	.mod-blockquote p,
 	.mod-gamma-1 h2,
 	.mod-gamma-1 h3,
@@ -198,6 +199,7 @@
 	hr {
 		background: $text-contrast-palette-primary-neutral-color;
 	}
+
 	/*-----------------------------------------------
 	# Et Cetera
 	-----------------------------------------------*/
@@ -279,5 +281,4 @@
 	.menu-social li.menu-item-object-post a {
 		background: rgba(15, 19, 28, 0.75);
 	}
-
 }
