@@ -65,7 +65,8 @@
 	.dropdown-toggle,
 	.site-header,
 	.nav > li > a:focus,
-	.nav > li > a:hover {
+	.nav > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		background:  $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
