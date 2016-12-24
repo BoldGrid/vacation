@@ -230,8 +230,6 @@ input[type="submit"] {
 	border: none;
 	padding: 8px 15px;
 	/* Border Radius */
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
 .button-primary i.fa {
@@ -371,8 +369,6 @@ hr {
 .navbar {
 	background: none;
 	border: none;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 	border-radius: 0;
 }
 .navbar-default {
@@ -498,10 +494,6 @@ blockquote p,
 	position: absolute;
 	width: 50%;
 	z-index: -1;
-	-webkit-transform: rotate(-3deg) skew(-0deg);
-	-moz-transform: rotate(-3deg) skew(-0deg);
-	-ms-transform: rotate(-3deg) skew(-0deg);
-	-o-transform: rotate(-3deg) skew(-0deg);
 	transform: rotate(-3deg) skew(-0deg);
 	}
 .background-alpha:after {
@@ -513,10 +505,6 @@ blockquote p,
 	right: 10px;
 	width: 50%;
 	z-index: -1;
-	-webkit-transform: rotate(3deg) skew(0deg);
-	-moz-transform: rotate(3deg) skew(0deg);
-	-ms-transform: rotate(3deg) skew(0deg);
-	-o-transform: rotate(3deg) skew(0deg);
 	transform: rotate(3deg) skew(0deg);
 }
 
@@ -526,8 +514,6 @@ blockquote p,
 	margin: 0 auto;
 	width: 80px;
 	/* Border Radius */
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
 	border-radius: 50px;
 }
 .icon-circle i.fa {
@@ -626,13 +612,8 @@ blockquote p,
 	margin: 10px 0;
 	padding: 8px 15px;
 	/* Border Radius */
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
 	border-radius: 4px;
 	/* Transition */
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	-o-transition: all .5s;
 	transition: all .5s;
 }
 
