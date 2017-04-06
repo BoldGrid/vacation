@@ -106,9 +106,7 @@ input[type="submit"]:focus,
 .site-info a:hover,
 .site-info a:focus,
 .attribution a:hover,
-.attribution a:focus,
-.woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus {
+.attribution a:focus {
 	text-decoration: none;
 }
 .site-title,
@@ -570,11 +568,13 @@ blockquote p,
 	border: none;
 	background: transparent;
 }
+
 /* Search Page */
 .search .jumbotron {
 	background: none;
 	text-align: center;
 }
+
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
@@ -639,12 +639,6 @@ blockquote p,
 -----------------------------------------------*/
 .product_title {
 	margin-bottom: 20px;
-}
-.product_title:before {
-	border-top: none;
-}
-.woocommerce p.buttons a.button:hover {
-	background-image: none;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;

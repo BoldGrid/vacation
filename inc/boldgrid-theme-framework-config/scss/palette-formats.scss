@@ -14,9 +14,7 @@
 	.navbar-default .navbar-toggle {
 		border-color: $text-contrast-palette-primary_1;
 	}
-	.navbar-default .navbar-toggle .icon-bar {
-		background-color: $text-contrast-palette-primary_1;
-	}
+	.navbar-default .navbar-toggle .icon-bar,
 	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:focus {
 		background-color: $text-contrast-palette-primary_1;
@@ -185,7 +183,6 @@
 	.mod-gamma-1 h2,
 	.mod-gamma-1 h3,
 	.comment-content p,
-	.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
 	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
 	.woocommerce div.product form.cart .variations label {
 		color: $text-contrast-palette-primary-neutral-color;
@@ -221,25 +218,12 @@
 	.ratings i {
 		color: #f39c12;
 	}
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-	    background-color: #a46497;
-	    color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-	    color: #515151;
-	}
-
 	.background-alpha:before,
 	.background-alpha:after {
 		/* Box Shadow */
 		-webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
 		-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-	    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+		box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
 	}
 
 	/* ## Social Menus */
