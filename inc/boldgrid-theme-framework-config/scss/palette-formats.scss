@@ -64,7 +64,9 @@
 	.site-header,
 	.nav > li > a:focus,
 	.nav > li > a:hover,
-	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.mark,
+	mark {
 		background:  $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
