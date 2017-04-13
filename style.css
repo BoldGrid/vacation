@@ -643,6 +643,9 @@ blockquote p,
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
 }
+.woocommerce-account p.order-again .btn.button-primary {
+	padding: 11px 22px;
+}
 
 /*------------------------------------------------------------------------
 # Footer
