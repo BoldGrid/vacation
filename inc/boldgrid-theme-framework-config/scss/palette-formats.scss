@@ -76,6 +76,9 @@
 	.tertiary-menu li a {
 		color: $text-contrast-palette-primary_1;
 	}
+	#reviews #comments ol.commentlist li .comment-text {
+		border: 1px solid $palette-primary_1;
+	}
 
 	/*-----------------------------------------------
 	## 2
@@ -185,8 +188,7 @@
 	.mod-gamma-1 h2,
 	.mod-gamma-1 h3,
 	.comment-content p,
-	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
-	.woocommerce div.product form.cart .variations label {
+	#reviews #comments ol.commentlist li .meta {
 		color: $text-contrast-palette-primary-neutral-color;
 	}
 	.entry-title:before,

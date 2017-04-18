@@ -270,6 +270,10 @@ hr {
 	height: 1px;
 	border: 0;
 }
+select,
+input {
+	color: #333;
+}
 
 /*------------------------------------------------------------------------
 # Header
@@ -640,7 +644,7 @@ blockquote p,
 .product_title {
 	margin-bottom: 20px;
 }
-.woocommerce div.product .woocommerce-tabs .panel {
+.panel {
 	background: none;
 	box-shadow: none;
 }
