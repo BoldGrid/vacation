@@ -270,4 +270,14 @@
 	.menu-social li.menu-item-object-post a {
 		background: rgba(15, 19, 28, 0.75);
 	}
+
+	/*-----------------------------------------------
+	# WooCommerce
+	-----------------------------------------------*/
+	&.woocommerce div.product .stock.out-of-stock {
+		color: $palette-primary_1;
+	}
+	&.woocommerce div.product .stock {
+		color: $text-contrast-palette-primary-neutral-color;
+	}
 }
