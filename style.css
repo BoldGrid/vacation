@@ -114,7 +114,6 @@ input[type="submit"]:focus,
 .page-header,
 .social-menu,
 .site-description,
-.navbar .navbar-collapse,
 .secondary-menu,
 .tertiary-menu,
 .mod-divider,
@@ -341,13 +340,6 @@ input {
 	margin: 0 auto 10px;
 }
 
-/* Nav Center */
-.navbar .navbar-nav {
-	display: inline-block;
-	float: none;
-	vertical-align: top;
-}
-
 /* Nav links */
 .navbar-default .navbar-nav > li > a {
 	padding-top: 10px;
@@ -375,6 +367,18 @@ input {
 }
 .navbar-default {
 	margin-bottom: 0;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
 }
 
 /*-----------------------------------------------
