@@ -127,7 +127,7 @@
 		border-left: 7px solid $palette-primary_2;
 	}
 	.mod-divider a {
-	    background: $text-contrast-palette-primary_2;
+			background: $text-contrast-palette-primary_2;
 		color: $palette-primary_2;
 	}
 
@@ -247,31 +247,121 @@
 		background: #00aced;
 	}
 	.menu-social li.linkedin a {
-		background: #007bb6;
+		background: #0976b4;
 	}
-	.menu-social li.youtube a:hover,
-	.footer-center-menu li.menu-social.youtube a:hover  {
-		background: #960000;
+	.menu-social li.bitbucket a {
+		background: #205081;
 	}
-	.menu-social li.facebook a:hover,
-	.footer-center-menu li.menu-social.facebook a:hover {
-		background: #2e4677;
+	.menu-social li.codepen a {
+		background: #000;
 	}
-	.menu-social li.google-plus a:hover,
-	.footer-center-menu li.menu-social.google-plus a:hover {
-		background: #b42f1e;
+	.menu-social li.dribbble a {
+		background: #444444;
 	}
-	.menu-social li.twitter a:hover,
-	.footer-center-menu li.menu-social.twitter a:hover {
-		background: #0082b3;
+	.menu-social li.dropbox a {
+		background: #007ee5;
 	}
-	.menu-social li.linkedin a:hover,
-	.footer-center-menu li.menu-social.linkedin a:hover {
-		background: #00557e;
+	.menu-social li.flickr a {
+		background: #ff0084;
+	}
+	.menu-social li.foursquare a {
+		background: #0072b1;
+	}
+	.menu-social li.github a {
+		background: #333;
+	}
+	.menu-social li.gratipay a {
+		background: #663300;
+	}
+	.menu-social li.instagram a {
+		background: #3f729b;
+	}
+	.menu-social li.jsfiddle a {
+		background: #4679BD;
+	}
+	.menu-social li.xing a {
+		background: #026466;
+	}
+	.menu-social li.wpcom a {
+		background: #21759b;
+	}
+	.menu-social li.weibo a {
+		background: #E71D34;
+	}
+	.menu-social li.tumblr a {
+		background: #35465c;
+	}
+	.menu-social li.trello a {
+		background: #256a92;
+	}
+	.menu-social li.snapchat a {
+		background: #FFFC00;
+	}
+	.menu-social li.reddit a {
+		background: #ff4500;
+	}
+	.menu-social li.renren a {
+		background: #005EAC;
+	}
+	.menu-social li.pinterest a {
+		background: #cc2127;
+	}
+	.menu-social li.envelope a {
+		background: #777;
+	}
+	.menu-social li.yelp a {
+		background: #af0606;
+	}
+	.menu-social li.slideshare a {
+		background: #e98325;
+	}
+	.menu-social li.stack-overflow a {
+		background: #fe7a15;
+	}
+	.menu-social li.stack-exchange a {
+		background: #000;
+	}
+	.menu-social li.soundcloud a {
+		background: #f80;
+	}
+	.menu-social li.steam a {
+		background: #0B0B0B;
+	}
+	.menu-social li.vimeo a {
+		background: #1ab7ea;
+	}
+	.menu-social li.vine a {
+		background: #00b488;
+	}
+	.menu-social li.vk a {
+		background: #45668e;
+	}
+	.tertiary-menu li.menu-social a:hover{
+		color: $palette-primary_2;
+	}
+	.secondary-menu li.menu-social a:hover,
+	.footer-center-menu li.menu-social a:hover {
+		color: $palette-primary_1; 
 	}
 	.menu-social li.menu-item-object-page a,
 	.menu-social li.menu-item-object-post a {
 		background: rgba(15, 19, 28, 0.75);
+	}
+	
+	/* Social Media Color Overlay */
+	.menu-social li a {
+		position: relative;
+		width:100%;
+		height:100%;
+	}
+	.menu-social li a:hover:after {
+		content:"\A";
+		width:100%;
+		height:100%;
+		background:rgba(0, 0, 0, 0.1);
+		position:absolute;
+		top:0;
+		left:0;
 	}
 
 	/*-----------------------------------------------
