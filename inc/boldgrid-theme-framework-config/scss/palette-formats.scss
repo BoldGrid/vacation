@@ -127,7 +127,7 @@
 		border-left: 7px solid $palette-primary_2;
 	}
 	.mod-divider a {
-			background: $text-contrast-palette-primary_2;
+		background: $text-contrast-palette-primary_2;
 		color: $palette-primary_2;
 	}
 
@@ -336,17 +336,6 @@
 	.menu-social li.vk a {
 		background: #45668e;
 	}
-	.tertiary-menu li.menu-social a:hover{
-		color: $palette-primary_2;
-	}
-	.secondary-menu li.menu-social a:hover,
-	.footer-center-menu li.menu-social a:hover {
-		color: $palette-primary_1; 
-	}
-	.menu-social li.menu-item-object-page a,
-	.menu-social li.menu-item-object-post a {
-		background: rgba(15, 19, 28, 0.75);
-	}
 	
 	/* Social Media Color Overlay */
 	.menu-social li a {
@@ -362,6 +351,17 @@
 		position:absolute;
 		top:0;
 		left:0;
+	}
+	.tertiary-menu li.menu-social a:hover{
+		color: $palette-primary_2;
+	}
+	.secondary-menu li.menu-social a:hover,
+	.footer-center-menu li.menu-social a:hover {
+		color: $palette-primary_1; 
+	}
+	.menu-social li.menu-item-object-page a,
+	.menu-social li.menu-item-object-post a {
+		background: rgba(15, 19, 28, 0.75);
 	}
 
 	/*-----------------------------------------------
