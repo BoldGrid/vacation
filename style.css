@@ -73,11 +73,8 @@ body,
 ## Typography
 -----------------------------------------------*/
 h2,
-.mod-alpha h2,
-.mod-gamma-1 h2,
 .entry-title,
-.mod-divider a,
-.form-submit .submit {
+.mod-divider a {
 	font-weight: bold;
 }
 h3 {
@@ -88,25 +85,11 @@ h3 {
 .entry-content ol {
 	padding-left: 16px;
 }
-.p-button-primary,
-.p-button-secondary {
-	white-space: nowrap;
-}
-.site-info a,
-.attribution a {
-	text-decoration: underline;
-}
 .button-primary:hover,
 .button-primary:focus,
 .button-secondary:hover,
 .button-secondary:active,
-input[type="submit"]:hover,
-input[type="submit"]:focus,
-.mod-divider a,
-.site-info a:hover,
-.site-info a:focus,
-.attribution a:hover,
-.attribution a:focus {
+.mod-divider a {
 	text-decoration: none;
 }
 .site-title,
@@ -222,8 +205,7 @@ input[type="submit"]:focus,
 ## Buttons
 -----------------------------------------------*/
 .button-primary,
-.button-secondary,
-input[type="submit"] {
+.button-secondary {
 	padding: 8px 15px;
 	border: none;
 	/* Border Radius */
@@ -397,9 +379,6 @@ input {
 /* Tertiary Menu */
 .tertiary-menu li a {
 	padding: 10px;
-}
-.tertiary-menu {
-	background: none;
 }
 
 /*-----------------------------------------------
@@ -595,16 +574,8 @@ blockquote p,
 	padding: 0;
 	border: none;
 }
-.widget-area {
-	margin-top: 25px;
-	padding: 25px;
-}
 
 /* Comments */
-.comment-form-comment label {
-	float: left;
-	padding-right: 15px;
-}
 .panel-footer {
 	padding: 20px 15px;
 }
@@ -612,17 +583,6 @@ blockquote p,
 /* Call to Action */
 .single .call-to-action {
 	display: none;
-}
-
-/* Buttons */
-.form-submit .submit {
-	margin: 10px 0;
-	padding: 8px 15px;
-	border: medium none;
-	/* Border Radius */
-	border-radius: 4px;
-	/* Transition */
-	transition: all .5s;
 }
 
 /*------------------------------------------------------------------------
@@ -637,7 +597,6 @@ blockquote p,
 	-ms-filter: brightness(35%);
 	filter: brightness(35%);
 	transition: all .5s;
-
 	-moz-filter: brightness(35%);
 	-o-filter: brightness(35%);
 }
@@ -671,9 +630,6 @@ blockquote p,
 	margin-left: -15px;
 	padding: 20px 15px;
 }
-.site-info {
-	margin-top: 30px;
-}
 
 /* Footer Center Menu */
 .footer-center-menu li a {
@@ -681,20 +637,10 @@ blockquote p,
 }
 
 /* xs */
-.attribution {
-	margin-bottom: 30px;
-}
 .disabled-footer .site-footer {
 	padding: 15px 0;
 	height: auto;
 }
 .disabled-footer .content-area {
 	margin-bottom: 0;
-}
-
-/* md */
-@media (min-width: 992px) {
-	.attribution {
-		padding-bottom: 0;
-	}
 }

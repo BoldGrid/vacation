@@ -55,8 +55,6 @@
 		background: $palette-primary_2;
 	}
 	.button-primary,
-	.form-submit .submit,
-	input[type="submit"],
 	.dropdown-menu > li > a,
 	.dropdown-menu > li > a:hover,
 	.dropdown-menu > li > a:focus,
@@ -136,25 +134,15 @@
 	-----------------------------------------------*/
 	.site-footer,
 	.site-footer p,
-	.site-info p,
-	.attribution p,
 	.button-primary:hover,
 	.button-primary:focus,
 	.button-secondary:hover,
 	.button-secondary:focus,
-	.form-submit .submit:hover,
-	.form-submit .submit:focus,
-	input[type="submit"]:hover,
-	input[type="submit"]:focus,
 	.navbar-default .navbar-nav > .open > a,
 	.navbar-default .navbar-nav > .open > a:hover,
 	.navbar-default .navbar-nav > .open > a:focus {
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
-	}
-	.mod-divider::before,
-	.entry-title::before {
-		border-top: 1px solid $palette-primary_3;
 	}
 	.mod-divider a,
 	&.single .entry-title,
@@ -197,9 +185,6 @@
 	.entry-title:before,
 	.mod-divider:before {
 		border-top: 1px solid $text-contrast-palette-primary-neutral-color;
-	}
-	.widget-area {
-		border: 1px solid $text-contrast-palette-primary-neutral-color;
 	}
 	hr {
 		background: $text-contrast-palette-primary-neutral-color;
@@ -362,15 +347,5 @@
 	.menu-social li.menu-item-object-page a,
 	.menu-social li.menu-item-object-post a {
 		background: rgba(15, 19, 28, 0.75);
-	}
-
-	/*-----------------------------------------------
-	# WooCommerce
-	-----------------------------------------------*/
-	&.woocommerce div.product .stock.out-of-stock {
-		color: $palette-primary_1;
-	}
-	&.woocommerce div.product .stock {
-		color: $text-contrast-palette-primary-neutral-color;
 	}
 }
