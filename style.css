@@ -124,7 +124,7 @@ h3 {
 	font-size: 35px;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .site-header,
 .site-footer,
 .navbar-default .navbar-nav,
@@ -139,8 +139,8 @@ h3 {
 	text-align: center;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.site-header,
 	.navbar-default .navbar-nav,
 	.navbar-default .navbar-nav .open .dropdown-menu {
@@ -148,8 +148,8 @@ h3 {
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -232,8 +232,8 @@ h3 {
 	margin-top: 15px;
 }
 
-/* sm */
-@media (min-width: 500px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.button-primary,
 	.button-secondary {
 		display: inline;
@@ -288,7 +288,7 @@ input {
 	padding-bottom: 20px;
 }
 
-/* xs */
+/* Extra small devices (phones, less than 768px) */
 .social-menu ul {
 	display: inline-block;
 	float: none;
@@ -298,8 +298,8 @@ input {
 	float: left;
 }
 
-/* md */
-@media (min-width: 1075px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.social-menu {
 		position: absolute;
 		top: 8%;
@@ -316,32 +316,23 @@ input {
 /*-----------------------------------------------
 ## Main Menu
 -----------------------------------------------*/
-/* Typography */
 .navbar-default .navbar-nav {
 	float: none;
 	margin: 0 auto 10px;
 }
-
-/* Nav links */
 .navbar-default .navbar-nav > li > a {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
-/* Nav hover */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;
 }
-
-/* Nav active */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	background: none;
 }
-
-/* Nav reset */
 .navbar {
 	border: none;
 	border-radius: 0;
@@ -351,8 +342,8 @@ input {
 	margin-bottom: 0;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.navbar .navbar-nav {
 		display: inline-block;
 		float: none;
@@ -636,7 +627,7 @@ blockquote p,
 	padding: 5px;
 }
 
-/* xs */
+/* Disabled Footer */
 .disabled-footer .site-footer {
 	padding: 15px 0;
 	height: auto;
