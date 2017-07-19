@@ -61,7 +61,7 @@ body,
 	height: 135px;
 	background: url("images/pentagonpattern.jpg") repeat-x 0 bottom;
 }
-.home .background-pattern {
+.page-template-page_home .background-pattern {
 	margin-top: -50px;
 }
 
