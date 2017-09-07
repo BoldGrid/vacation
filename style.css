@@ -191,9 +191,6 @@ h3 {
 }
 
 /* Headings */
-.hentry {
-	margin: 0 auto;
-}
 .heading h3 {
 	margin-top: 10px;
 }
@@ -564,6 +561,9 @@ blockquote p,
 	margin: 40px 0 10px;
 	padding: 0;
 	border: none;
+}
+.post {
+	margin: 0 auto 50px;
 }
 
 /* Comments */
