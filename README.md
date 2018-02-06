@@ -6,7 +6,7 @@
 - License: GNU General Public License v2 or later
 - License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-BoldGrid Theme best suited for Property Management, Fitness, Real Estate, Music, and Restaurant sites.
+BoldGrid Theme best suited for Fitness, Real Estate, Music, and Restaurant sites.
 
 ## Information & Changelog
 [BoldGrid.com - Vacation](https://www.boldgrid.com/themes/vacation/)
